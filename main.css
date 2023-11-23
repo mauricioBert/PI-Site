@@ -1,0 +1,149 @@
+:root{
+    --FontFamily-pagina: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --FontesSize-Titulo:25px;
+    --FontesSize-Texto:18px;
+    --CorPrincipal:#0082CD;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--FontFamily-pagina);
+    font-size:var(--FontesSize-Texto)
+}
+h2{
+    font-size: var(--FontesSize-Titulo);
+}
+.divNav{
+    height: 15%;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 4px 0px rgba(0,0,0,0.25);
+}
+    
+nav{
+    min-height: 50px;
+    max-width:1800px;
+   display: flex;
+   align-items:center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: auto; 
+}
+.navLogoTexto{
+    margin-left: 5px;
+    display: flex;
+    width: 230px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imgNav{
+    width: 65%;
+    
+}
+.navHamburguer{
+    margin-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+.navLista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+li{
+    margin-left: 20px;
+    list-style-type: none;
+}
+article{
+    max-width: 1800px;
+    margin: auto;
+    
+}
+.imgArticle{
+    height: 100%;
+    filter: grayscale(40%);
+}
+.quemSomosTitulo{
+    
+    width: 30%;
+   
+}
+.quemSomosTexto{
+    width: 35%;
+}
+.quemsomosDiv{
+   
+    display: flex;
+    min-height: 405px;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.nossasAtividadesSec{
+    min-height: 405px;
+    background-color: #ffffff;
+}
+.nossasAtividadesTitulo{
+    display: flex;
+    justify-content: center;
+}
+.nossasAtividadesh2{
+    margin-top: 30px;
+}
+.divQuemsomos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imgQuemsomos{
+    width: 200px;
+}
+.secQuemSomos{
+background-color: #0082CD;
+    margin-top: -35px;
+}
+.secintegra{
+    background-color: #0082CD;
+}
+.integrantes{
+    min-height: 405px;
+}
+.divIntegrantesEquipe{
+display: flex;
+margin-top: 50px;
+justify-content: center;
+}
+.quadroIntegrantes{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pictureFoto{
+    margin-top: 20px;
+}
+.fotogrupo{
+    
+}
+.paulo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 450px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+.areaInte{
+    display: flex;
+    justify-content: center;
+}
